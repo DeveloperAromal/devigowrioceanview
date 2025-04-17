@@ -52,7 +52,7 @@ export default function Navbar() {
               <Link
                 key={link.name}
                 href={link.path}
-                className="text-green-700 hover:text-green-900 px-2 py-1 text-md font-medium transition-colors duration-200"
+                className="text-green-600 hover:text-green-900 px-2 py-1 text-md font-medium transition-colors duration-200"
               >
                 {link.name}
               </Link>
@@ -61,7 +61,7 @@ export default function Navbar() {
 
           {/* Book Now button (Desktop) */}
           <div className="hidden md:flex">
-            <button className="bg-green-500 px-6 py-2 rounded-xl hover:bg-green-600 text-white transition duration-200">
+            <button className="bg-green-500 flex px-6 py-2 rounded-xl hover:bg-green-600 text-white transition duration-200">
               Book Now
             </button>
           </div>
