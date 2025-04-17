@@ -1,5 +1,4 @@
 import { Bed, Waves, UtensilsCrossed, Car } from "lucide-react";
-
 const highlights = [
   {
     icon: <Bed className="w-8 h-8 text-green-500" />,
