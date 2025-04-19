@@ -5,21 +5,21 @@ export default function CTA() {
     <section className="py-16 relative overflow-hidden">
       <div className="absolute inset-0 z-0">
         <Image
-          src="https://images.unsplash.com/photo-1500375592092-40eb2168fd21?q=80&w=1920&auto=format&fit=crop"
+          src="https://images.unsplash.com/photo-1508624217470-5ef0f947d8be?q=80&w=1920&auto=format&fit=crop"
           alt="Ocean view"
           height={1000}
-          width={300}
+          width={1000}
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-ocean-900/70"></div>
+        <div className="absolute inset-0 bg-black/10"></div>
       </div>
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="font-playfair text-3xl md:text-4xl font-bold text-yellow-900 mb-4">
+          <h2 className="font-playfair text-3xl md:text-5xl font-bold text-white mb-4">
             Ready for an Unforgettable Coastal Experience?
           </h2>
-          <p className="text-lg mb-8 max-w-2xl mx-auto text-slate-800">
+          <p className="text-lg mb-8 max-w-2xl mx-auto text-slate-900">
             Book your stay at DevaGowri Oceanview Homestay and create memories
             that will last a lifetime. Limited rooms available.
           </p>
@@ -30,8 +30,8 @@ export default function CTA() {
               </button>
             </Link>
             <Link href="/contact">
-              <button className="border-white flex text-black border-2  hover:bg-white px-8 py-4 w-full sm:w-auto rounded-3xl backdrop-blur-xl">
-                Contact Us{" "}
+              <button className="border-lime-600 flex text-white border-2  hover:bg-lime-600 px-8 py-4 w-full sm:w-auto rounded-3xl backdrop-blur-xl">
+                Contact Us
                 <span>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

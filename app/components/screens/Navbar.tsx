@@ -52,7 +52,7 @@ export default function Navbar() {
               <Link
                 key={link.name}
                 href={link.path}
-                className="text-green-600 hover:text-green-900 px-2 py-1 text-md font-medium transition-colors duration-200"
+                className="text-lime-600 hover:text-lime-900 px-2 py-1 text-md font-medium transition-colors duration-200"
               >
                 {link.name}
               </Link>
@@ -61,7 +61,7 @@ export default function Navbar() {
 
           {/* Book Now button (Desktop) */}
           <div className="hidden md:flex">
-            <button className="bg-green-500 flex px-6 py-2 rounded-xl hover:bg-green-600 text-white transition duration-200">
+            <button className="bg-lime-500 flex px-6 py-2 rounded-xl hover:bg-lime-600 text-white transition duration-200">
               Book Now
             </button>
           </div>
@@ -70,7 +70,7 @@ export default function Navbar() {
           <div className="flex md:hidden">
             <button
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-              className="inline-flex items-center justify-center p-2 rounded-md text-green-700 hover:text-green-900"
+              className="inline-flex items-center justify-center p-2 rounded-md text-lime-700 hover:text-lime-900"
             >
               {mobileMenuOpen ? (
                 <X className="h-6 w-6" />
@@ -96,13 +96,13 @@ export default function Navbar() {
               key={link.name}
               href={link.path}
               onClick={() => setMobileMenuOpen(false)}
-              className="block px-3 py-2 rounded-md text-base font-medium text-green-800 hover:text-white hover:bg-green-600 transition"
+              className="block px-3 py-2 rounded-md text-base font-medium text-lime-800 hover:text-white hover:bg-lime-600 transition"
             >
               {link.name}
             </Link>
           ))}
           <div className="pt-3">
-            <button className="w-full bg-green-500 hover:bg-green-600 text-white py-2 rounded-md transition duration-200">
+            <button className="w-full bg-lime-500 hover:bg-lime-600 text-white py-2 rounded-md transition duration-200">
               Book Now
             </button>
           </div>

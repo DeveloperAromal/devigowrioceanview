@@ -99,7 +99,7 @@ export default function Footer() {
                 placeholder="Your email"
                 className="px-4 py-2 w-full rounded-l-md focus:outline-none text-gray-300 border-2 border-l-neutral-700 border-t-neutral-700 border-b-neutral-700 border-r-black"
               />
-              <button className="bg-sky-500 hover:bg-ocean-600 px-4 py-2 rounded-r-md transition-colors">
+              <button className="bg-lime-500 hover:bg-lime-600 px-4 py-2 rounded-r-md transition-colors">
                 Subscribe
               </button>
             </div>
@@ -111,7 +111,7 @@ export default function Footer() {
             <p className="text-gray-400 text-sm">
               © {new Date().getFullYear()} DevaGowri Oceanview Homestay. All
               rights reserved. Powered by
-              <span className="text-blue-700">
+              <span className="text-lime-500">
                 <Link href="https://www.instagram.com/__nymora__"> Nymora</Link>
               </span>
             </p>
